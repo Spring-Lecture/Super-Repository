@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class StringController {
+
     @Value("${String.hello}")
     private final String hello;
 
